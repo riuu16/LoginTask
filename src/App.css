@@ -1,0 +1,65 @@
+*{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.background-signIn{
+  background-image: url("../src/assets/images/background1\ \(1\).jpg");
+  height: 100Vh;
+  width: 100wh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+}
+
+.sign-in-detail{
+  padding: 20px 5px 20px 5px !important;
+  /* background-color: blueviolet; */
+  color:grey;
+}
+.form-control{
+  height:35px;
+  padding: 5px 5px 5px 10px !important;
+}
+
+.btn-sign{
+  padding:10px 0px !important;
+}
+.google-btn{
+  display: flex;
+    justify-content: center;
+    margin: 15px !important;
+}
+.fb-btn{
+  margin-left: 10px;
+  font-weight: 300 !important;
+  padding: 12px !important;
+  text-transform: unset !important;
+  border-radius: 5px !important;
+}
+
+.background-signUp{
+  background-image: url("../src/assets/images/background2\ \(2\).jpg");
+  height: 100Vh;
+  width: 100wh;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: fill;
+}
+@media(max-width:768px){
+
+  html,body{
+    overflow-x: hidden;
+}
+  .form-container{
+    position: absolute;
+    width: 80%;
+    background: white;
+    margin: 50px 40px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+}
